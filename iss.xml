@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="03/20/24||05:11:08" using="Simscape Multibody Link Version 7.4" from="SolidWorks 30.1.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="" uid="" version="104">
+<AssemblyFile name="" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="ISS.asm-1" uid="ISS.asm-1" grounded="true" entityUid="ISS.asm" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="photovoltaic arrays.par-1" uid="photovoltaic arrays.par-1" grounded="true" entityUid="photovoltaic arrays.par*:*Défaut">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 -0.029238854813159999</Translation>
+</Transform>
+</Instance>
+<Instance name="photovoltaic arrays.par-2" uid="photovoltaic arrays.par-2" grounded="true" entityUid="photovoltaic arrays.par*:*Défaut">
+<Transform>
+<Rotation>-0.99975483737767923 0 -0.022141931711799002 0 -1 0 -0.022141931711799002 0 0.99975483737767923</Rotation>
+<Translation>-0.010703461702734 0.0184 -0.038999096381992997</Translation>
+</Transform>
+</Instance>
+<Instance name="photovoltaic arrays.par-4" uid="photovoltaic arrays.par-4" grounded="true" entityUid="photovoltaic arrays.par*:*Défaut">
+<Transform>
+<Rotation>0.99869503292339001 0 0.051070845050271998 0 1 0 -0.051070845050271998 0 0.99869503292339001</Rotation>
+<Translation>0.10800001459163699 0 -0.029268749030333</Translation>
+</Transform>
+</Instance>
+<Instance name="placas solares.par-8" uid="placas solares.par-8" grounded="true" entityUid="placas solares.par*:*Défaut">
+<Transform>
+<Rotation>0.99901776982219448 -3.0029437962050512e-15 -0.044311348202111023 3.000000000000001e-15 1 -1.3293404460633307e-16 0.044311348202111023 0 0.99901776982219448</Rotation>
+<Translation>0.123508589030548 0.18804999999999999 -0.037373097113292002</Translation>
+</Transform>
+</Instance>
+<Instance name="s5 segment.par-2" uid="s5 segment.par-2" grounded="true" entityUid="s5 segment.par*:*Défaut">
+<Transform>
+<Rotation>0.99999995128842545 0 -0.00031212681244800018 0 1 0 0.00031212681244800018 0 0.99999995128842545</Rotation>
+<Translation>0.15248491481328999 0.0094000000000000004 -0.033812713774453003</Translation>
+</Transform>
+</Instance>
+<Instance name="s5 segment.par-1" uid="s5 segment.par-1" grounded="true" entityUid="s5 segment.par*:*Défaut">
+<Transform>
+<Rotation>0.99999995128842545 0 -0.00031212681244800018 0 1 0 0.00031212681244800018 0 0.99999995128842545</Rotation>
+<Translation>0.044484900221653002 0.0094000000000000004 -0.033782819557281997</Translation>
+</Transform>
+</Instance>
+<Instance name="placas solares.par-1" uid="placas solares.par-1" grounded="true" entityUid="placas solares.par*:*Défaut">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.026259664761562999 -0.168895272120163 -0.028746078456399999</Translation>
+</Transform>
+</Instance>
+<Instance name="s6 truss.par-1" uid="s6 truss.par-1" grounded="true" entityUid="s6 truss.par*:*Défaut">
+<Transform>
+<Rotation>0.99999995128842545 0 0.00031212681244800018 0 -1 -9.999999512884255e-16 0.00031212681244800018 9.9999990257685309e-16 -0.99999995128842545</Rotation>
+<Translation>0.044484900221653002 0.0094000000000000004 -0.033782819557281997</Translation>
+</Transform>
+</Instance>
+<Instance name="photovoltaic arrays.par-3" uid="photovoltaic arrays.par-3" grounded="true" entityUid="photovoltaic arrays.par*:*Défaut">
+<Transform>
+<Rotation>-0.99901776982219448 -9.9901776982219452e-16 -0.044311348202110974 9.9999999999999949e-16 -1 0 -0.044311348202110974 0 0.99901776982219448</Rotation>
+<Translation>0.097296552888903001 0.018800000000000001 -0.039028990599164003</Translation>
+</Transform>
+</Instance>
+<Instance name="placas solares.par-2" uid="placas solares.par-2" grounded="true" entityUid="placas solares.par*:*Défaut">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.026240335238436999 -0.168872436178886 -0.028736413694836999</Translation>
+</Transform>
+</Instance>
+<Instance name="placas solares.par-4" uid="placas solares.par-4" grounded="true" entityUid="placas solares.par*:*Défaut">
+<Transform>
+<Rotation>-0.99869503292339001 2.9999999999999998e-15 0.051070845050271998 -2.9999999999999998e-15 -1 0 0.051070845050271998 0 0.99869503292339001</Rotation>
+<Translation>0.13367970797539 -0.16922716405872301 -0.029883516210424999</Translation>
+</Transform>
+</Instance>
+<Instance name="placas solares.par-3" uid="placas solares.par-3" grounded="true" entityUid="placas solares.par*:*Défaut">
+<Transform>
+<Rotation>0.99869503292339001 0 0.05107084505027195 0 1 0 -0.05107084505027195 0 0.99869503292339001</Rotation>
+<Translation>0.081838473715275001 -0.168895272120163 -0.027437490941684999</Translation>
+</Transform>
+</Instance>
+<Instance name="placas solares.par-5" uid="placas solares.par-5" grounded="true" entityUid="placas solares.par*:*Défaut">
+<Transform>
+<Rotation>0.99975483737767923 0 -0.022141931711799002 0 1 0 0.022141931711799002 0 0.99975483737767923</Rotation>
+<Translation>-0.036448611390015997 0.187889715738354 -0.039066719188541002</Translation>
+</Transform>
+</Instance>
+<Instance name="placas solares.par-6" uid="placas solares.par-6" grounded="true" entityUid="placas solares.par*:*Défaut">
+<Transform>
+<Rotation>0.99975986966630448 0 -0.021913534740290012 0 1 0 0.021913534740290012 0 0.99975986966630448</Rotation>
+<Translation>0.01554234775732 0.187666044792514 -0.03792849076095</Translation>
+</Transform>
+</Instance>
+<Instance name="placas solares.par-7" uid="placas solares.par-7" grounded="true" entityUid="placas solares.par*:*Défaut">
+<Transform>
+<Rotation>0.99901776982219448 -3.0029437962050481e-15 -0.044311348202110974 2.9999999999999983e-15 1 -1.3293404460633293e-16 0.044311348202110974 0 0.99901776982219448</Rotation>
+<Translation>0.071559236741179005 0.188027164058723 -0.039667631951260003</Translation>
+</Transform>
+</Instance>
+<Instance name="brazo.asm-1" uid="brazo.asm-1" grounded="true" entityUid="brazo.asm" rigid="true">
+<Transform>
+<Rotation>-0.99999992167163099 2.6443173272802003e-06 -0.00039579001956938315 7.0888399599999997e-07 -0.99996411253479645 -0.0084719326009194493 -0.00039579821814700002 -0.0084719322178959944 0.99996403420736391</Rotation>
+<Translation>0.91881899491299601 0.018114019397108001 0.00028323955810200002</Translation>
+</Transform>
+<Instance name="photovoltaic arrays.par-2" uid="photovoltaic arrays.par-2" grounded="true" entityUid="photovoltaic arrays.par*:*Défaut">
+<Transform>
+<Rotation>-0.99975986966630448 0 -0.021913534740290012 0 -1 0 -0.021913534740290012 0 0.99975986966630459</Rotation>
+<Translation>-0.010705691174052068 0.018400000000000003 -0.038996650895765005</Translation>
+</Transform>
+</Instance>
+<Instance name="photovoltaic arrays.par-3" uid="photovoltaic arrays.par-3" grounded="true" entityUid="photovoltaic arrays.par*:*Défaut">
+<Transform>
+<Rotation>-0.99902786678649513 -9.989326362348349e-16 -0.044083119036938997 9.9990545357475646e-16 -1 0 -0.044083119036938997 0 0.99902786678649524</Rotation>
+<Translation>0.097294310090460856 0.018800000000000004 -0.039007244781238008</Translation>
+</Transform>
+</Instance>
+<Instance name="photovoltaic arrays.par-4" uid="photovoltaic arrays.par-4" grounded="true" entityUid="photovoltaic arrays.par*:*Défaut">
+<Transform>
+<Rotation>0.99868333960498468 0 0.051298997996402994 0 1 0 -0.051298997996403001 0 0.99868333960498468</Rotation>
+<Translation>0.10800000126451292 0 -0.029249448698635008</Translation>
+</Transform>
+</Instance>
+<Instance name="s6 truss.par-1" uid="s6 truss.par-1" grounded="true" entityUid="s6 truss.par*:*Défaut">
+<Transform>
+<Rotation>0.99999999649929605 0 8.3674413730999925e-05 0 -1 -1.0009354456386177e-15 8.3674413731000088e-05 9.9573127521068727e-16 -0.99999999649929616</Rotation>
+<Translation>0.044483860981148982 0.0094000000000000021 -0.033792982121001</Translation>
+</Transform>
+</Instance>
+<Instance name="photovoltaic arrays.par-1" uid="photovoltaic arrays.par-1" grounded="true" entityUid="photovoltaic arrays.par*:*Défaut">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 -0.029238854813160006</Translation>
+</Transform>
+</Instance>
+<Instance name="s5 segment.par-1" uid="s5 segment.par-1" grounded="true" entityUid="s5 segment.par*:*Défaut">
+<Transform>
+<Rotation>0.99999999649929605 0 -8.3674413730999925e-05 0 1 0 8.3674413731000088e-05 0 0.99999999649929616</Rotation>
+<Translation>0.044483860981148982 0.0094000000000000021 -0.033792982121001</Translation>
+</Transform>
+</Instance>
+<Instance name="placas solares.par-4" uid="placas solares.par-4" grounded="true" entityUid="placas solares.par*:*Défaut">
+<Transform>
+<Rotation>-0.99868333960498479 -1.0014068194737647e-15 0.051298997996403049 1.0000680839006293e-15 -1 0 0.051298997996403049 0 0.99868333960498479</Rotation>
+<Translation>0.1336795535331089 -0.16922716405872301 -0.029870082450313008</Translation>
+</Transform>
+</Instance>
+<Instance name="placas solares.par-2" uid="placas solares.par-2" grounded="true" entityUid="placas solares.par*:*Défaut">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.02624033523843694 -0.168872436178886 -0.028736413694837006</Translation>
+</Transform>
+</Instance>
+<Instance name="placas solares.par-7" uid="placas solares.par-7" grounded="true" entityUid="placas solares.par*:*Défaut">
+<Transform>
+<Rotation>0.99902786678649513 -3.0000009637945468e-15 -0.044083119036939004 3.000041621376015e-15 1 0 0.044083119036939004 0 0.99902786678649524</Rotation>
+<Translation>0.071556848715206955 0.18802716405872305 -0.039640006364981009</Translation>
+</Transform>
+</Instance>
+<Instance name="placas solares.par-8" uid="placas solares.par-8" grounded="true" entityUid="placas solares.par*:*Défaut">
+<Transform>
+<Rotation>0.99902786678649513 -3.0030337652621909e-15 -0.044083119036938005 3.0000958314846393e-15 1 -1.3183898417423734e-16 0.044083119036938005 0 0.99902786678649524</Rotation>
+<Translation>0.12350672384093997 0.18805000000000005 -0.037357339541187008</Translation>
+</Transform>
+</Instance>
+<Instance name="placas solares.par-1" uid="placas solares.par-1" grounded="true" entityUid="placas solares.par*:*Défaut">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.02625966476156294 -0.16889527212016303 -0.028746078456400009</Translation>
+</Transform>
+</Instance>
+<Instance name="placas solares.par-5" uid="placas solares.par-5" grounded="true" entityUid="placas solares.par*:*Défaut">
+<Transform>
+<Rotation>0.99975986966630448 0 -0.021913534740290012 0 1 0 0.021913534740290012 0 0.99975986966630459</Rotation>
+<Translation>-0.036450855638100021 0.18788971573835406 -0.039058392159268998</Translation>
+</Transform>
+</Instance>
+<Instance name="placas solares.par-6" uid="placas solares.par-6" grounded="true" entityUid="placas solares.par*:*Défaut">
+<Transform>
+<Rotation>0.99975986966630448 0 -0.021913534740290012 0 1 0 0.021913534740290012 0 0.99975986966630459</Rotation>
+<Translation>0.015542347757319996 0.18766604479251406 -0.037928490760950007</Translation>
+</Transform>
+</Instance>
+<Instance name="s5 segment.par-2" uid="s5 segment.par-2" grounded="true" entityUid="s5 segment.par*:*Défaut">
+<Transform>
+<Rotation>0.99999999649929605 0 -8.3674413730999925e-05 0 1 0 8.3674413731000088e-05 0 0.99999999649929616</Rotation>
+<Translation>0.15248386224566302 0.0094000000000000038 -0.033803576006474004</Translation>
+</Transform>
+</Instance>
+<Instance name="placas solares.par-3" uid="placas solares.par-3" grounded="true" entityUid="placas solares.par*:*Défaut">
+<Transform>
+<Rotation>0.99868333960498468 0 0.051298997996402994 0 1 0 -0.051298997996403001 0 0.99868333960498468</Rotation>
+<Translation>0.081838879426150979 -0.168895272120163 -0.027412213990930006</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="research module.par-2" uid="research module.par-2" grounded="true" entityUid="research module.par*:*Défaut">
+<Transform>
+<Rotation>0.99993558742621846 -0.011349625420079328 -8.367441373044297e-05 0.011349625459811006 0.99993559092669659 -4.0987754911046143e-16 8.3669024339000042e-05 -9.4967325599994374e-07 0.99999999649929638</Rotation>
+<Translation>0.45963488078612602 0.23584863666831399 -0.095645651631715997</Translation>
+</Transform>
+</Instance>
+<Instance name="mini photo array.par-2" uid="mini photo array.par-2" grounded="true" entityUid="mini photo array.par*:*Défaut">
+<Transform>
+<Rotation>0.99999995128842545 -2.6443173272562542e-06 -0.00031211561100787935 0 0.99996411253479645 -0.0084719326305771753 0.00031212681244800018 0.0084719322178959944 0.99996406382497005</Rotation>
+<Translation>0.58458445981886697 0.0034133440052950001 -0.033503008917420002</Translation>
+</Transform>
+</Instance>
+<Instance name="control module.par-1" uid="control module.par-1" grounded="true" entityUid="control module.par*:*Défaut">
+<Transform>
+<Rotation>0.99999995128842545 -2.6443173272562542e-06 -0.00031211561100787935 0 0.99996411253479645 -0.0084719326305771753 0.00031212681244800018 0.0084719322178959944 0.99996406382497005</Rotation>
+<Translation>0.45978709140548601 0.107479625240925 -0.077787896006961996</Translation>
+</Transform>
+</Instance>
+<Instance name="service module.par-1" uid="service module.par-1" grounded="true" entityUid="service module.par*:*Défaut">
+<Transform>
+<Rotation>0.99999999649929627 0 -8.367441373000002e-05 0 1 0 8.367441373000002e-05 0 0.99999999649929627</Rotation>
+<Translation>0.45963345833063901 0.23584863666831399 -0.078645765786692995</Translation>
+</Transform>
+</Instance>
+<Instance name="mini solar panels.par-1" uid="mini solar panels.par-1" grounded="true" entityUid="mini solar panels.par*:*Défaut">
+<Transform>
+<Rotation>0.15487801412987201 -2.6443173280048349e-06 -0.98793360137824793 -0.0083692969747970001 0.99996411253479645 -0.0013147283539479192 0.98789815042206397 0.008471932217894964 0.15487243381945209</Rotation>
+<Translation>0.33335746285726198 0.029402503251376 -0.032191724221079</Translation>
+</Transform>
+</Instance>
+<Instance name="hab 2.par-1" uid="hab 2.par-1" grounded="true" entityUid="hab 2.par*:*Défaut">
+<Transform>
+<Rotation>-0.00031211561100799996 2.6443173269999438e-06 0.99999995128842534 -0.0084719326305769983 -0.99996411253479645 -2.5726847003660139e-16 0.99996406382496983 -0.0084719322178958192 0.00031212681244811868</Rotation>
+<Translation>0.48043125251658497 -0.18021194441323499 -0.080254803539540995</Translation>
+</Transform>
+</Instance>
+<Instance name="mini solar panels.par-2" uid="mini solar panels.par-2" grounded="true" entityUid="mini solar panels.par*:*Défaut">
+<Transform>
+<Rotation>-0.00031211561100099992 -2.6443173279999437e-06 -0.99999995128842534 -0.0084719326305769983 0.99996411253479645 -8.0199959358057821e-16 0.99996406382496983 0.0084719322178958192 -0.00031212681244112731</Rotation>
+<Translation>0.584563075984735 0.029063255257786001 -0.031687240501901998</Translation>
+</Transform>
+</Instance>
+<Instance name="research module.par-1" uid="research module.par-1" grounded="true" entityUid="research module.par*:*Défaut">
+<Transform>
+<Rotation>0.9998838844855632 -0.015235489158746224 -0.0003121156110074126 0.015232299222019003 0.99984809017065879 -0.0084719326305774008 0.0004411422353250001 0.0084661946693829985 0.99996406382496983</Rotation>
+<Translation>0.45943781871696099 0.051974584145341 -0.10129504339602501</Translation>
+</Transform>
+</Instance>
+<Instance name="hab 1.par-1" uid="hab 1.par-1" grounded="true" entityUid="hab 1.par*:*Défaut">
+<Transform>
+<Rotation>0.99999995128842545 -2.6443173272562568e-06 -0.00031211561100787935 0 0.99996411253479645 -0.0084719326305771839 0.00031212681244800018 0.0084719322178960031 0.99996406382497005</Rotation>
+<Translation>0.45942469911169698 -0.18038985499847801 -0.059262112862277998</Translation>
+</Transform>
+</Instance>
+<Instance name="central truss.par-1" uid="central truss.par-1" grounded="true" entityUid="central truss.par*:*Défaut">
+<Transform>
+<Rotation>-0.99999995128842545 2.6443173272562568e-06 -0.00031211561100787935 0 -0.99996411253479645 -0.0084719326305771839 -0.00031212681244800018 -0.0084719322178960031 0.99996406382497005</Rotation>
+<Translation>0.193484892963628 0.0094000000000000004 -0.033736312662227</Translation>
+</Transform>
+</Instance>
+<Instance name="node.par-2" uid="node.par-2" grounded="true" entityUid="node.par*:*Défaut">
+<Transform>
+<Rotation>-0.00031211561100799996 -0.99999995054766944 3.858113630941457e-05 -0.0084719326305769983 -3.5935531053000356e-05 -0.99996411188909207 0.99996406382496983 -0.00031243126655596052 -0.0084719209955799527</Rotation>
+<Translation>0.459437993019641 0.0099778080150879998 -0.101853478828066</Translation>
+</Transform>
+</Instance>
+<Instance name="mini photo array.par-1" uid="mini photo array.par-1" grounded="true" entityUid="mini photo array.par*:*Défaut">
+<Transform>
+<Rotation>0.98793360137824893 -2.6443173269747204e-06 0.15487801412986485 0.0013147283539469998 0.99996411253479645 -0.0083692969747981832 -0.15487243381944496 0.0084719322178959909 0.98789815042206497</Rotation>
+<Translation>0.334416727833245 0.0034147159977350001 -0.033743032800813998</Translation>
+</Transform>
+</Instance>
+<Instance name="central truss.par-2" uid="central truss.par-2" grounded="true" entityUid="central truss.par*:*Défaut">
+<Transform>
+<Rotation>0.99999995128842545 2.6443173272562568e-06 0.00031211561100787935 0 -0.99996411253479645 0.0084719326305771839 0.00031212681244800018 -0.0084719322178960031 -0.99996406382497005</Rotation>
+<Translation>0.72534851886985197 0.0094000000000000004 -0.033570303755930002</Translation>
+</Transform>
+</Instance>
+<Instance name="NASA.par-1" uid="NASA.par-1" grounded="true" entityUid="NASA.par*:*Défaut">
+<Transform>
+<Rotation>-8.0315660639e-05 -4.1899806962000036e-05 0.99999999589690047 0.14706550679421601 -0.98912675417929741 -2.9632556847260739e-05 0.98912675136241002 0.14706550381083325 8.5604385063066382e-05</Rotation>
+<Translation>0.49918572060125099 -0.18079516970332499 -0.082746405095073</Translation>
+</Transform>
+</Instance>
+<Instance name="hab 3.par-1" uid="hab 3.par-1" grounded="true" entityUid="hab 3.par*:*Défaut">
+<Transform>
+<Rotation>0.00031243255751500017 -3.5924305400000201e-05 0.99999995054766944 -3.5924305400000011e-05 0.99999999870904088 3.593553105333223e-05 -0.99999995054766944 -3.5935531053332034e-05 0.00031243126655594399</Rotation>
+<Translation>0.479551540984966 0.0098552710809590004 -0.15217820510612101</Translation>
+</Transform>
+</Instance>
+<Instance name="multi lab.par-1" uid="multi lab.par-1" grounded="true" entityUid="multi lab.par*:*Défaut">
+<Transform>
+<Rotation>0.99999999649929605 0 -8.3674413731000006e-05 0 1 0 8.3674413731000006e-05 0 0.99999999649929605</Rotation>
+<Translation>0.45963132384990601 0.23584863666831399 -0.053136405987547</Translation>
+</Transform>
+</Instance>
+<Instance name="node.par-1" uid="node.par-1" grounded="true" entityUid="node.par*:*Défaut">
+<Transform>
+<Rotation>0.99999995128842545 2.6443173272562568e-06 0.00031211561100787935 0 -0.99996411253479645 0.0084719326305771839 0.00031212681244800018 -0.0084719322178960031 -0.99996406382497005</Rotation>
+<Translation>0.437431253864768 -0.18021194441323499 -0.080265833610974002</Translation>
+</Transform>
+</Instance>
+<Instance name="acoble.par-1" uid="acoble.par-1" grounded="true" entityUid="acoble.par*:*Défaut">
+<Transform>
+<Rotation>-0.00031211561100799996 0.99999995054766944 -3.8581136310414496e-05 -0.0084719326305769983 3.5935531054000241e-05 0.99996411188909207 0.99996406382496983 0.00031243126655596892 0.0084719209955799527</Rotation>
+<Translation>0.427900277318705 0.0098534149652770003 -0.15219434257664599</Translation>
+</Transform>
+</Instance>
+<Instance name="USlab.par-1" uid="USlab.par-1" grounded="true" entityUid="USlab.par*:*Défaut">
+<Transform>
+<Rotation>0.99999995128842534 -2.6443173272562517e-06 -0.00031211561100787897 0 0.99996411253479645 -0.0084719326305771753 0.0003121268124479998 0.0084719322178959944 0.99996406382496994</Rotation>
+<Translation>0.45943050784204098 0.101777935321577 -0.077872273317156002</Translation>
+</Transform>
+</Instance>
+<Instance name="superior solar panels.par-1" uid="superior solar panels.par-1" grounded="true" entityUid="superior solar panels.par*:*Défaut">
+<Transform>
+<Rotation>-0.99999999649929605 0 -8.3674413731000006e-05 0 -1 0 -8.3674413731000006e-05 0 0.99999999649929605</Rotation>
+<Translation>0.44289910461177001 0.23579711236927201 0.045863086743138999</Translation>
+</Transform>
+</Instance>
+<Instance name="solar p.par-2" uid="solar p.par-2" grounded="true" entityUid="solar p.par*:*Défaut">
+<Transform>
+<Rotation>-0.99999995128842523 -0.00031211561101087917 -2.644317327281617e-06 0 -0.008471932630577007 0.99996411253479645 -0.00031212681245100006 0.99996406382496994 0.0084719322178958278</Rotation>
+<Translation>0.44268680984570802 0.166427242176996 -0.076888496194200004</Translation>
+</Transform>
+</Instance>
+<Instance name="ventilador.par-3" uid="ventilador.par-3" grounded="true" entityUid="ventilador.par*:*Défaut">
+<Transform>
+<Rotation>-0.00018977338665400001 0.00025078022336600021 0.99999995054766933 -0.72324172239972595 -0.69059496790008201 3.5935531053245961e-05 0.69059494276047195 -0.72324167981412968 0.00031243126655562301</Rotation>
+<Translation>0.55639153718504897 0.0098580323671650007 -0.15215419788759901</Translation>
+</Transform>
+</Instance>
+<Instance name="ventilador.par-2" uid="ventilador.par-2" grounded="true" entityUid="ventilador.par*:*Défaut">
+<Transform>
+<Rotation>2.0190303294000003e-05 -0.00031147311072000016 -0.99999995128842512 -0.99790565340251725 -0.064686218835969603 5.6005140846096535e-16 -0.064686215685002019 0.99790560479296142 -0.00031212681244759664</Rotation>
+<Translation>0.36743125727457798 -0.18021194441323499 -0.080287682487845999</Translation>
+</Transform>
+</Instance>
+<Instance name="research solar.par-1" uid="research solar.par-1" grounded="true" entityUid="research solar.par*:*Défaut">
+<Transform>
+<Rotation>0.9998838844855632 0.015235489158746224 0.0003121156110074126 0.015232299222019003 -0.99984809017065879 0.0084719326305774008 0.0004411422353250001 -0.0084661946693829985 -0.99996406382496983</Rotation>
+<Translation>0.45873058468817901 0.053491574937368003 -0.24628762276972499</Translation>
+</Transform>
+</Instance>
+<Instance name="ventilador.par-1" uid="ventilador.par-1" grounded="true" entityUid="ventilador.par*:*Défaut">
+<Transform>
+<Rotation>0.99998636459818546 -0.0052127921069205548 -0.00031211561100828728 0.0052099611002710024 0.99995054010827789 -0.0084719326305776992 0.00035626259735100014 0.0084701910021799977 0.99996406382496972</Rotation>
+<Translation>0.45940035409403801 -0.18105066574366299 0.01873508411607</Translation>
+</Transform>
+</Instance>
+<Instance name="solar g.par-2" uid="solar g.par-2" grounded="true" entityUid="solar g.par*:*Défaut">
+<Transform>
+<Rotation>-0.99999999649929605 0 -8.3674413730000006e-05 0 -1 0 -8.3674413730000006e-05 0 0.99999999649929605</Rotation>
+<Translation>0.42383269192966599 0.33584863666831399 -0.079148761396594006</Translation>
+</Transform>
+</Instance>
+<Instance name="grua.par-1" uid="grua.par-1" grounded="true" entityUid="grua.par*:*Défaut">
+<Transform>
+<Rotation>-0.30610675367721213 0.95199714176936689 -0.00031211561100784411 -0.95196221395560643 -0.30609830048244846 -0.00847193263057755 -0.0081607937076560028 -0.0022961935268530037 0.99996406382496994</Rotation>
+<Translation>0.58993570325695799 -0.18284263628417199 -0.076012516959370002</Translation>
+</Transform>
+</Instance>
+<Instance name="hab 4.par-1" uid="hab 4.par-1" grounded="true" entityUid="hab 4.par*:*Défaut">
+<Transform>
+<Rotation>0.97926442753274057 0.20258599051469298 -0.00031211561100791046 -0.20258131947673591 0.97922879622515568 -0.0084719326305778119 -0.0014106622694889993 0.0083594910498859965 0.99996406382496972</Rotation>
+<Translation>0.560426079346109 -0.18035225696318899 -0.059485621907329998</Translation>
+</Transform>
+</Instance>
+<Instance name="solar sup.par-1" uid="solar sup.par-1" grounded="true" entityUid="solar sup.par*:*Défaut">
+<Transform>
+<Rotation>0.99999999649929627 -1.2102051928731509e-05 -8.2794612459633214e-05 0 0.98948542054689226 -0.14463264681647708 8.367441373100002e-05 0.14463264631016104 0.98948541708299698</Rotation>
+<Translation>0.47622299855285399 0.23572479604586399 0.046360617812442002</Translation>
+</Transform>
+</Instance>
+<Instance name="solar sup.par-2" uid="solar sup.par-2" grounded="true" entityUid="solar sup.par*:*Défaut">
+<Transform>
+<Rotation>0.99999999649929605 0 -8.3674413731000006e-05 0 1 0 8.3674413731000006e-05 0 0.99999999649929605</Rotation>
+<Translation>0.34409911409418897 0.23691197893718099 0.045745628033444001</Translation>
+</Transform>
+</Instance>
+<Instance name="research solar.par-2" uid="research solar.par-2" grounded="true" entityUid="research solar.par*:*Défaut">
+<Transform>
+<Rotation>0.99998895693112466 -0.004698883585476538 -8.0677453800930075e-05 0.0046988853901149983 0.9999889599308257 2.2193601812496578e-05 8.0572277964999976e-05 -2.2572450836000036e-05 0.99999999649929627</Rotation>
+<Translation>0.46059051726085998 0.235563360697187 -0.26063970026480199</Translation>
+</Transform>
+</Instance>
+<Instance name="solar p.par-1" uid="solar p.par-1" grounded="true" entityUid="solar p.par*:*Défaut">
+<Transform>
+<Rotation>0.99999995128842545 0.00031211561100787929 -2.6443173272561996e-06 0 0.0084719326305769983 0.99996411253479656 0.00031212681244800018 -0.99996406382496983 0.0084719322178958209</Rotation>
+<Translation>0.477086916572946 0.166410541422471 -0.077225063098494001</Translation>
+</Transform>
+</Instance>
+<Instance name="door.par-1" uid="door.par-1" grounded="true" entityUid="door.par*:*Défaut">
+<Transform>
+<Rotation>-0.54406392589068286 -0.83904376706815087 3.8581136309734972e-05 -0.0071293023682199985 0.0045768965032999993 -0.99996411188909196 0.8390134787905138 -0.54404467552075586 -0.0084719209955799318</Rotation>
+<Translation>0.45945447212796697 -0.014249819691936 -0.15181158646437301</Translation>
+</Transform>
+</Instance>
+<Instance name="inf solar.par-4" uid="inf solar.par-4" grounded="true" entityUid="inf solar.par*:*Défaut">
+<Transform>
+<Rotation>0.99999995128842545 -0.00031211561100787929 2.6443173272561996e-06 0 -0.0084719326305769983 -0.99996411253479656 0.00031212681244800018 0.99996406382496983 -0.0084719322178958209</Rotation>
+<Translation>0.89375068922176104 0.0089931234260230003 -0.048598568741492001</Translation>
+</Transform>
+</Instance>
+<Instance name="grua.par-2" uid="grua.par-2" grounded="true" entityUid="grua.par*:*Défaut">
+<Transform>
+<Rotation>0.90451227430007219 0.42644758838632313 0 0 0 -1 -0.42644758838632313 0.90451227430007219 0</Rotation>
+<Translation>0.45962630338508198 0.222348636668314 0.0068635938024109999</Translation>
+</Transform>
+</Instance>
+<Instance name="superior solar panels.par-2" uid="superior solar panels.par-2" grounded="true" entityUid="superior solar panels.par*:*Défaut">
+<Transform>
+<Rotation>0.99999999649929627 -1.2102051928731509e-05 -8.2794612459633214e-05 0 0.98948542054689226 -0.14463264681647708 8.367441373100002e-05 0.14463264631016104 0.98948541708299698</Rotation>
+<Translation>0.47622303995016002 0.23579711236927201 0.045865875103900999</Translation>
+</Transform>
+</Instance>
+<Instance name="solar g.par-1" uid="solar g.par-1" grounded="true" entityUid="solar g.par*:*Défaut">
+<Transform>
+<Rotation>0.99999999649929627 6.7378083447228561e-07 -8.367170090566053e-05 0 0.99996757880672771 0.0080524117760351049 8.367441373000002e-05 -0.0080524117478459958 0.99996757530613745</Rotation>
+<Translation>0.49543430840466901 0.33584461046242597 -0.079142753962696002</Translation>
+</Transform>
+</Instance>
+<Instance name="inf solar.par-1" uid="inf solar.par-1" grounded="true" entityUid="inf solar.par*:*Défaut">
+<Transform>
+<Rotation>0.99999995128842545 -0.00031212681244800018 0 0 0 -1.0000000000000002 0.00031212681244800018 0.99999995128842545 0</Rotation>
+<Translation>0.13346901646047499 0.0098738685147079994 -0.048817394945966</Translation>
+</Transform>
+</Instance>
+<Instance name="inf solar.par-2" uid="inf solar.par-2" grounded="true" entityUid="inf solar.par*:*Défaut">
+<Transform>
+<Rotation>0.99999934002288526 -0.00031212681244837401 -0.0011056810782875313 -0.0011056811321470002 0 -0.99999938873443039 0.00031212662165600003 0.99999995128842545 -3.4511272736093921e-07</Rotation>
+<Translation>0.025138691504533999 0.0096815489876759999 -0.048788858758709003</Translation>
+</Transform>
+</Instance>
+<Instance name="inf solar.par-3" uid="inf solar.par-3" grounded="true" entityUid="inf solar.par*:*Défaut">
+<Transform>
+<Rotation>0.99999990175149067 -0.0003121156110076193 0.00031477111444237738 0.00031211561100799991 -0.0084719326305769983 -0.99996406382496983 0.00031477111444199992 0.99996406382496983 -0.0084718343820676112</Rotation>
+<Translation>0.78637146196908403 0.0089789446975270006 -0.048637845866501002</Translation>
+</Transform>
+</Instance>
+</Instance>
+</InstanceTree>
+<Constraints>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="ISS.asm" uid="ISS.asm" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="ISS.asm.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="brazo.asm" uid="brazo.asm" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="brazo.asm.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="NASA.par" uid="NASA.par*:*Défaut" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="NASA.par.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="NASA.par_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="USlab.par" uid="USlab.par*:*Défaut" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="USlab.par.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="USlab.par_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Diffuse r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Specular r="0.31960784313725488" g="0.33333333333333331" b="0.34313725490196079" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="acoble.par" uid="acoble.par*:*Défaut" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="acoble.par.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="acoble.par_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Diffuse r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Specular r="0.31960784313725488" g="0.33333333333333331" b="0.34313725490196079" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="central truss.par" uid="central truss.par*:*Défaut" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="central truss.par.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="central truss.par_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Diffuse r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Specular r="0.31960784313725488" g="0.33333333333333331" b="0.34313725490196079" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="control module.par" uid="control module.par*:*Défaut" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="control module.par.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="control module.par_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Diffuse r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Specular r="0.31960784313725488" g="0.33333333333333331" b="0.34313725490196079" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="door.par" uid="door.par*:*Défaut" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="door.par.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="door.par_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Diffuse r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Specular r="0.31960784313725488" g="0.33333333333333331" b="0.34313725490196079" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="grua.par" uid="grua.par*:*Défaut" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="grua.par.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="grua.par_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Diffuse r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Specular r="0.31960784313725488" g="0.33333333333333331" b="0.34313725490196079" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="hab 1.par" uid="hab 1.par*:*Défaut" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="hab 1.par.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="hab 1.par_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Diffuse r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Specular r="0.31960784313725488" g="0.33333333333333331" b="0.34313725490196079" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="hab 2.par" uid="hab 2.par*:*Défaut" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="hab 2.par.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="hab 2.par_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Diffuse r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Specular r="0.31960784313725488" g="0.33333333333333331" b="0.34313725490196079" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="hab 3.par" uid="hab 3.par*:*Défaut" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="hab 3.par.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="hab 3.par_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Diffuse r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Specular r="0.31960784313725488" g="0.33333333333333331" b="0.34313725490196079" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="hab 4.par" uid="hab 4.par*:*Défaut" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="hab 4.par.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="hab 4.par_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Diffuse r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Specular r="0.31960784313725488" g="0.33333333333333331" b="0.34313725490196079" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="inf solar.par" uid="inf solar.par*:*Défaut" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="inf solar.par.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="inf solar.par_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Diffuse r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Specular r="0.31960784313725488" g="0.33333333333333331" b="0.34313725490196079" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="mini photo array.par" uid="mini photo array.par*:*Défaut" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="mini photo array.par.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="mini photo array.par_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Diffuse r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Specular r="0.31960784313725488" g="0.33333333333333331" b="0.34313725490196079" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="mini solar panels.par" uid="mini solar panels.par*:*Défaut" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="mini solar panels.par.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="mini solar panels.par_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Diffuse r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Specular r="0.31960784313725488" g="0.33333333333333331" b="0.34313725490196079" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="multi lab.par" uid="multi lab.par*:*Défaut" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="multi lab.par.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="multi lab.par_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Diffuse r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Specular r="0.31960784313725488" g="0.33333333333333331" b="0.34313725490196079" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="node.par" uid="node.par*:*Défaut" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="node.par.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="node.par_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Diffuse r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Specular r="0.31960784313725488" g="0.33333333333333331" b="0.34313725490196079" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="photovoltaic arrays.par" uid="photovoltaic arrays.par*:*Défaut" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="photovoltaic arrays.par.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="photovoltaic arrays.par_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Diffuse r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Specular r="0.31960784313725488" g="0.33333333333333331" b="0.34313725490196079" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="placas solares.par" uid="placas solares.par*:*Défaut" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="placas solares.par.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="placas solares.par_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Diffuse r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Specular r="0.31960784313725488" g="0.33333333333333331" b="0.34313725490196079" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="research module.par" uid="research module.par*:*Défaut" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="research module.par.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="research module.par_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Diffuse r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Specular r="0.31960784313725488" g="0.33333333333333331" b="0.34313725490196079" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="research solar.par" uid="research solar.par*:*Défaut" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="research solar.par.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="research solar.par_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Diffuse r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Specular r="0.31960784313725488" g="0.33333333333333331" b="0.34313725490196079" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="s5 segment.par" uid="s5 segment.par*:*Défaut" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="s5 segment.par.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="s5 segment.par_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Diffuse r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Specular r="0.31960784313725488" g="0.33333333333333331" b="0.34313725490196079" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="s6 truss.par" uid="s6 truss.par*:*Défaut" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="s6 truss.par.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="s6 truss.par_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Diffuse r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Specular r="0.31960784313725488" g="0.33333333333333331" b="0.34313725490196079" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="service module.par" uid="service module.par*:*Défaut" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="service module.par.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="service module.par_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Diffuse r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Specular r="0.31960784313725488" g="0.33333333333333331" b="0.34313725490196079" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="solar g.par" uid="solar g.par*:*Défaut" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="solar g.par.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="solar g.par_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Diffuse r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Specular r="0.31960784313725488" g="0.33333333333333331" b="0.34313725490196079" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="solar p.par" uid="solar p.par*:*Défaut" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="solar p.par.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="solar p.par_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Diffuse r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Specular r="0.31960784313725488" g="0.33333333333333331" b="0.34313725490196079" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="solar sup.par" uid="solar sup.par*:*Défaut" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="solar sup.par.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="solar sup.par_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Diffuse r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Specular r="0.31960784313725488" g="0.33333333333333331" b="0.34313725490196079" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="superior solar panels.par" uid="superior solar panels.par*:*Défaut" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="superior solar panels.par.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="superior solar panels.par_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Diffuse r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Specular r="0.31960784313725488" g="0.33333333333333331" b="0.34313725490196079" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ventilador.par" uid="ventilador.par*:*Défaut" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ventilador.par.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="ventilador.par_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Diffuse r="0.63921568627450975" g="0.66666666666666663" b="0.68627450980392157" a="1"/>
+<Specular r="0.31960784313725488" g="0.33333333333333331" b="0.34313725490196079" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
